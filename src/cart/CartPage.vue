@@ -57,7 +57,7 @@ export default {
     name: 'CartPage',
     data() {
         return {
-            quantity: 5,
+
         }
     },
     computed: {
