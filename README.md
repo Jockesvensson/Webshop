@@ -1,4 +1,5 @@
 # webshop
+En simplare webshop för att använda och lära mig Vue.js Store.
 
 ## Project setup
 ```
