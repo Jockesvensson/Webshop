@@ -91,11 +91,11 @@ export default {
             this.$store.commit('addToCartNew', product);
         },
         removeQuantityFromCart(product) {
-            if(product.quantity > 0) {
+            if(product.quantity > 1) {
 
                 this.$store.commit('removeQuantity', product);
             } else {
-                return;
+                this.removeFromCart(product);
             }
         },
     }
